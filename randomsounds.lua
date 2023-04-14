@@ -3,7 +3,7 @@ tool = script.Parent
 function onActivation()
 
 	local silly = math.random(1, 3)
-	local sound = nil
+	local sound
   
 	if silly == 1 then
 		sound = script.Parent.Sounds.funny1
